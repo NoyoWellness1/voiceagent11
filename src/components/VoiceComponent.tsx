@@ -52,7 +52,7 @@ const VoiceChat = () => {
     try {
       // Replace with your actual agent ID or URL
       const conversationId = await conversation.startSession({
-        agentId: "agent_9001k6bzftxef3xssfg7qgyc6b0g",
+        agentId: "agent_2801k6c458rvfrg97pzq05a1s94k",
       });
       console.log("Started conversation:", conversationId);
     } catch (error) {
